@@ -1,0 +1,20 @@
+ab code = qe
+
+read testdat = false
+
+dos calc = false
+min energy = 4.0
+max energy = 20.0
+energy step = 0.05
+delta = 0.05
+temperature = 10.01
+ref energy = 0.0
+
+evec calc = false
+min vecenergy = -10.0
+max vecenergy = 5.0
+evec points = 32
+
+read geometry = false
+
+calculate gap = false

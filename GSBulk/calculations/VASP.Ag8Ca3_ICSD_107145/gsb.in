@@ -1,0 +1,20 @@
+ab code = vasp
+
+read testdat = .false.
+
+dos calc = .false.
+min energy = -20.0
+max energy = 20.0
+energy step = 0.01
+delta = 0.05
+temperature = 10.01
+ref energy = ef
+
+evec calc = .true.
+min vecenergy = -10.0
+max vecenergy = 5.0
+evec points = 256
+
+read geometry = true
+
+calculate gap = true
